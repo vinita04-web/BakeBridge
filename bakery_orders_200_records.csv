@@ -1,0 +1,201 @@
+user_id,customer_name,product_name,category,price,quantity,total_amount
+U001,Monica,Black Forest Cake,Cake,650,4,2600
+U002,Hannah,Chocolate Cookie,Cookie,60,1,60
+U003,Erik,Vanilla Cupcake,Cupcake,100,3,300
+U004,Phillip,Red Velvet Cake,Cake,700,5,3500
+U005,Christopher,Black Forest Cake,Cake,650,5,3250
+U006,Judith,Brownie,Brownie,150,2,300
+U007,Amy,Vanilla Cupcake,Cupcake,100,2,200
+U008,Bonnie,Flower Bouquet,Bouquet,400,4,1600
+U009,Donald,Vanilla Cake,Cake,450,5,2250
+U010,Mia,Pineapple Pastry,Pastry,95,3,285
+U011,Danielle,Red Velvet Cake,Cake,700,3,2100
+U012,David,Brownie,Brownie,150,3,450
+U013,Lisa,Chocolate Cake,Cake,500,5,2500
+U014,David,Pineapple Pastry,Pastry,95,1,95
+U015,Danielle,Strawberry Cupcake,Cupcake,130,1,130
+U016,Scott,Chocolate Pastry,Pastry,90,3,270
+U017,Shannon,Pineapple Pastry,Pastry,95,4,380
+U018,Annette,Cheese Sandwich,Savoury,170,4,680
+U019,Jillian,Red Velvet Cake,Cake,700,3,2100
+U020,Wendy,Pineapple Pastry,Pastry,95,2,190
+U021,Melissa,Chocolate Cookie,Cookie,60,1,60
+U022,Nathan,Brownie,Brownie,150,3,450
+U023,Jimmy,Fresh Alphonso Mango Cake,Cake,775,5,3875
+U024,Todd,Flower Bouquet,Bouquet,400,4,1600
+U025,Edgar,Veg Sandwich,Savoury,140,3,420
+U026,Joshua,Strawberry Cupcake,Cupcake,130,5,650
+U027,Eric,Pineapple Pastry,Pastry,95,2,190
+U028,Jeremy,Chocolate Cupcake,Cupcake,120,3,360
+U029,Stephen,Pineapple Pastry,Pastry,95,1,95
+U030,Penny,Fresh Alphonso Mango Cake,Cake,775,2,1550
+U031,Kevin,Black Forest Cake,Cake,650,1,650
+U032,Melissa,Rose Bouquet,Bouquet,500,4,2000
+U033,Christine,Strawberry Cupcake,Cupcake,130,3,390
+U034,Bradley,Cheese Sandwich,Savoury,170,1,170
+U035,Emily,Vanilla Cupcake,Cupcake,100,2,200
+U036,Tina,Vanilla Cake,Cake,450,2,900
+U037,Deborah,Brownie,Brownie,150,1,150
+U038,Jessica,Red Velvet Cake,Cake,700,4,2800
+U039,Timothy,Chocolate Cupcake,Cupcake,120,4,480
+U040,Amber,Cheese Sandwich,Savoury,170,4,680
+U041,Christopher,Veg Sandwich,Savoury,140,2,280
+U042,Charles,Chocolate Pastry,Pastry,90,2,180
+U043,Emily,Rose Bouquet,Bouquet,500,3,1500
+U044,Donna,Pineapple Pastry,Pastry,95,3,285
+U045,Melissa,Vanilla Cupcake,Cupcake,100,4,400
+U046,Thomas,Red Velvet Cake,Cake,700,5,3500
+U047,Autumn,Rose Bouquet,Bouquet,500,2,1000
+U048,Elizabeth,Rose Bouquet,Bouquet,500,4,2000
+U049,Harold,Vanilla Cupcake,Cupcake,100,2,200
+U050,Lori,Chocolate Cookie,Cookie,60,3,180
+U051,Tommy,Brownie,Brownie,150,1,150
+U052,Cynthia,Vanilla Cupcake,Cupcake,100,3,300
+U053,Alan,Red Velvet Cake,Cake,700,5,3500
+U054,David,Strawberry Cupcake,Cupcake,130,3,390
+U055,Lindsey,Strawberry Cupcake,Cupcake,130,2,260
+U056,Edward,Rose Bouquet,Bouquet,500,3,1500
+U057,Tammy,Chocolate Cake,Cake,500,4,2000
+U058,Steve,Flower Bouquet,Bouquet,400,4,1600
+U059,Alison,Strawberry Cupcake,Cupcake,130,1,130
+U060,Angela,Vanilla Cupcake,Cupcake,100,2,200
+U061,Dylan,Walnut Brownie,Brownie,180,2,360
+U062,Charles,Rose Bouquet,Bouquet,500,5,2500
+U063,Paul,Butter Cookie,Cookie,55,4,220
+U064,Christopher,Chocolate Cookie,Cookie,60,4,240
+U065,Jeremiah,Butter Cookie,Cookie,55,5,275
+U066,Amy,Cheese Sandwich,Savoury,170,4,680
+U067,Nathaniel,Fresh Alphonso Mango Cake,Cake,775,5,3875
+U068,Molly,Cheese Sandwich,Savoury,170,1,170
+U069,Justin,Chocolate Cupcake,Cupcake,120,4,480
+U070,Timothy,Black Forest Cake,Cake,650,1,650
+U071,Ashley,Vanilla Cupcake,Cupcake,100,3,300
+U072,William,Fresh Alphonso Mango Cake,Cake,775,3,2325
+U073,James,Strawberry Cupcake,Cupcake,130,2,260
+U074,April,Walnut Brownie,Brownie,180,1,180
+U075,Joseph,Fresh Alphonso Mango Cake,Cake,775,5,3875
+U076,Lisa,Fresh Alphonso Mango Cake,Cake,775,5,3875
+U077,Daniel,Butter Cookie,Cookie,55,3,165
+U078,Jamie,Fresh Alphonso Mango Cake,Cake,775,4,3100
+U079,April,Walnut Brownie,Brownie,180,2,360
+U080,Jessica,Vanilla Cake,Cake,450,3,1350
+U081,Rachel,Chocolate Pastry,Pastry,90,3,270
+U082,Timothy,Fresh Alphonso Mango Cake,Cake,775,5,3875
+U083,Danielle,Butter Cookie,Cookie,55,2,110
+U084,Henry,Veg Sandwich,Savoury,140,4,560
+U085,Christopher,Chocolate Cookie,Cookie,60,4,240
+U086,Jason,Black Forest Cake,Cake,650,1,650
+U087,Robyn,Butter Cookie,Cookie,55,2,110
+U088,Holly,Flower Bouquet,Bouquet,400,3,1200
+U089,Justin,Rose Bouquet,Bouquet,500,2,1000
+U090,Patricia,Black Forest Cake,Cake,650,2,1300
+U091,Adam,Butter Cookie,Cookie,55,4,220
+U092,Melinda,Flower Bouquet,Bouquet,400,5,2000
+U093,Michael,Flower Bouquet,Bouquet,400,2,800
+U094,Jessica,Chocolate Cake,Cake,500,4,2000
+U095,Angela,Butter Cookie,Cookie,55,3,165
+U096,David,Veg Sandwich,Savoury,140,5,700
+U097,Michael,Chocolate Cupcake,Cupcake,120,3,360
+U098,Amber,Rose Bouquet,Bouquet,500,3,1500
+U099,Karen,Walnut Brownie,Brownie,180,2,360
+U100,Nancy,Butter Cookie,Cookie,55,5,275
+U101,Brittany,Brownie,Brownie,150,5,750
+U102,Julie,Chocolate Pastry,Pastry,90,5,450
+U103,Dawn,Cheese Sandwich,Savoury,170,5,850
+U104,Deborah,Strawberry Cupcake,Cupcake,130,4,520
+U105,Tanya,Cheese Sandwich,Savoury,170,2,340
+U106,Evelyn,Chocolate Pastry,Pastry,90,3,270
+U107,Erin,Vanilla Cupcake,Cupcake,100,1,100
+U108,Gregory,Brownie,Brownie,150,1,150
+U109,Anthony,Strawberry Cupcake,Cupcake,130,5,650
+U110,Jesse,Black Forest Cake,Cake,650,1,650
+U111,Jonathon,Chocolate Pastry,Pastry,90,3,270
+U112,Anthony,Veg Sandwich,Savoury,140,3,420
+U113,Nicholas,Strawberry Cupcake,Cupcake,130,3,390
+U114,Daniel,Vanilla Cupcake,Cupcake,100,3,300
+U115,Ashley,Red Velvet Cake,Cake,700,2,1400
+U116,Alyssa,Brownie,Brownie,150,4,600
+U117,Arthur,Strawberry Cupcake,Cupcake,130,5,650
+U118,Angela,Rose Bouquet,Bouquet,500,4,2000
+U119,Zachary,Vanilla Cake,Cake,450,2,900
+U120,Kurt,Black Forest Cake,Cake,650,2,1300
+U121,Steven,Vanilla Cake,Cake,450,1,450
+U122,Cassandra,Strawberry Cupcake,Cupcake,130,1,130
+U123,Keith,Cheese Sandwich,Savoury,170,2,340
+U124,Derek,Vanilla Cake,Cake,450,1,450
+U125,David,Chocolate Cupcake,Cupcake,120,5,600
+U126,Jane,Chocolate Cake,Cake,500,4,2000
+U127,Angela,Fresh Alphonso Mango Cake,Cake,775,2,1550
+U128,Carl,Black Forest Cake,Cake,650,3,1950
+U129,Amber,Butter Cookie,Cookie,55,1,55
+U130,Justin,Chocolate Cake,Cake,500,1,500
+U131,Nicholas,Rose Bouquet,Bouquet,500,5,2500
+U132,Colleen,Red Velvet Cake,Cake,700,3,2100
+U133,Claudia,Strawberry Cupcake,Cupcake,130,2,260
+U134,Kevin,Veg Sandwich,Savoury,140,2,280
+U135,Anna,Pineapple Pastry,Pastry,95,4,380
+U136,Cindy,Veg Sandwich,Savoury,140,3,420
+U137,Travis,Cheese Sandwich,Savoury,170,1,170
+U138,Tina,Black Forest Cake,Cake,650,2,1300
+U139,Elizabeth,Black Forest Cake,Cake,650,5,3250
+U140,Shannon,Flower Bouquet,Bouquet,400,2,800
+U141,Suzanne,Chocolate Cupcake,Cupcake,120,3,360
+U142,Cassandra,Veg Sandwich,Savoury,140,1,140
+U143,Peter,Fresh Alphonso Mango Cake,Cake,775,2,1550
+U144,Angel,Black Forest Cake,Cake,650,1,650
+U145,Jeffrey,Vanilla Cake,Cake,450,2,900
+U146,Taylor,Rose Bouquet,Bouquet,500,1,500
+U147,Lindsey,Chocolate Pastry,Pastry,90,1,90
+U148,Jose,Walnut Brownie,Brownie,180,4,720
+U149,Daniel,Flower Bouquet,Bouquet,400,1,400
+U150,Amber,Cheese Sandwich,Savoury,170,2,340
+U151,Paul,Black Forest Cake,Cake,650,3,1950
+U152,Christopher,Rose Bouquet,Bouquet,500,3,1500
+U153,Jennifer,Chocolate Cake,Cake,500,3,1500
+U154,Brian,Strawberry Cupcake,Cupcake,130,5,650
+U155,Jessica,Chocolate Pastry,Pastry,90,3,270
+U156,Elizabeth,Chocolate Cake,Cake,500,3,1500
+U157,Melissa,Brownie,Brownie,150,4,600
+U158,Amanda,Chocolate Cupcake,Cupcake,120,2,240
+U159,Cody,Rose Bouquet,Bouquet,500,4,2000
+U160,Susan,Chocolate Cake,Cake,500,3,1500
+U161,Natalie,Flower Bouquet,Bouquet,400,3,1200
+U162,David,Chocolate Pastry,Pastry,90,5,450
+U163,Anthony,Vanilla Cake,Cake,450,2,900
+U164,Jessica,Cheese Sandwich,Savoury,170,4,680
+U165,Rodney,Chocolate Cake,Cake,500,4,2000
+U166,Jonathan,Chocolate Cake,Cake,500,2,1000
+U167,Sarah,Black Forest Cake,Cake,650,3,1950
+U168,Steven,Flower Bouquet,Bouquet,400,2,800
+U169,Juan,Fresh Alphonso Mango Cake,Cake,775,3,2325
+U170,Wayne,Brownie,Brownie,150,1,150
+U171,Patrick,Chocolate Cupcake,Cupcake,120,5,600
+U172,Matthew,Vanilla Cake,Cake,450,4,1800
+U173,Jessica,Veg Sandwich,Savoury,140,2,280
+U174,Paul,Chocolate Cake,Cake,500,4,2000
+U175,Tara,Cheese Sandwich,Savoury,170,5,850
+U176,Brett,Vanilla Cake,Cake,450,1,450
+U177,Evan,Strawberry Cupcake,Cupcake,130,4,520
+U178,Summer,Veg Sandwich,Savoury,140,4,560
+U179,David,Chocolate Cupcake,Cupcake,120,5,600
+U180,Philip,Chocolate Cookie,Cookie,60,4,240
+U181,Robert,Chocolate Pastry,Pastry,90,1,90
+U182,Timothy,Butter Cookie,Cookie,55,3,165
+U183,David,Fresh Alphonso Mango Cake,Cake,775,5,3875
+U184,Brian,Butter Cookie,Cookie,55,2,110
+U185,Melanie,Walnut Brownie,Brownie,180,3,540
+U186,Tricia,Rose Bouquet,Bouquet,500,5,2500
+U187,Suzanne,Flower Bouquet,Bouquet,400,5,2000
+U188,Allen,Red Velvet Cake,Cake,700,3,2100
+U189,Brian,Chocolate Cupcake,Cupcake,120,4,480
+U190,Meagan,Vanilla Cupcake,Cupcake,100,2,200
+U191,Jeremy,Black Forest Cake,Cake,650,5,3250
+U192,Tina,Chocolate Cupcake,Cupcake,120,3,360
+U193,Michael,Vanilla Cupcake,Cupcake,100,4,400
+U194,Vickie,Brownie,Brownie,150,1,150
+U195,Janet,Brownie,Brownie,150,3,450
+U196,Angela,Walnut Brownie,Brownie,180,5,900
+U197,Leah,Strawberry Cupcake,Cupcake,130,4,520
+U198,Theresa,Red Velvet Cake,Cake,700,5,3500
+U199,Amy,Flower Bouquet,Bouquet,400,4,1600
+U200,Annette,Cheese Sandwich,Savoury,170,5,850
