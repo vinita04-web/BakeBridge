@@ -1,0 +1,239 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Analytics Dashboard</title>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+    <style>
+
+        body{
+            font-family:'Poppins', sans-serif;
+            margin:0;
+            padding:20px;
+
+            background: url("{% static 'images/bg1.jpg' %}") no-repeat center;
+            background-size: cover;
+            background-attachment: fixed;
+
+            text-align:center;
+        }
+
+        h1{
+            color:#5a0f4d;
+            margin-bottom:30px;
+        }
+
+        /* ================= CARD ================= */
+
+        .card{
+            width:80%;
+            margin:25px auto;
+
+            padding:25px;
+
+            border-radius:25px;
+
+            background: rgba(255,255,255,0.15);
+            backdrop-filter: blur(12px);
+
+            box-shadow:0 5px 20px rgba(0,0,0,0.25);
+
+            color:white;
+        }
+
+        .card h2,
+        .card h3{
+            color:#ffe6f2;
+        }
+
+        /* ================= CHART ================= */
+
+        canvas{
+            background:white;
+            border-radius:15px;
+            padding:15px;
+            margin-top:15px;
+        }
+
+        /* ================= PREDICTION ================= */
+
+        .prediction-box{
+
+            width:80%;
+            margin:25px auto;
+
+            padding:25px;
+
+            border-radius:25px;
+
+            background: rgba(255,255,255,0.15);
+            backdrop-filter: blur(12px);
+
+            color:white;
+
+            box-shadow:0 5px 20px rgba(0,0,0,0.25);
+        }
+
+        .prediction-box h2{
+            color:#ffd6ec;
+        }
+
+        .prediction-box h3{
+            font-size:32px;
+            color:#ffffff;
+        }
+
+        /* ================= INSIGHTS ================= */
+
+        .insight{
+            font-size:18px;
+            margin:10px 0;
+        }
+
+        /* ================= BUTTON ================= */
+
+        .back-btn{
+            display:inline-block;
+
+            margin-top:20px;
+            padding:12px 25px;
+
+            border-radius:30px;
+
+            text-decoration:none;
+
+            color:white;
+
+            background: linear-gradient(135deg,#ff69b4,#ff1493);
+
+            font-weight:600;
+
+            transition:0.3s;
+        }
+
+        .back-btn:hover{
+            transform:scale(1.05);
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <h1>📊 Analytics Dashboard</h1>
+
+    <!-- ================= GRAPH ================= -->
+<div class="card">
+
+<h2>📈 Purchase Distribution</h2>
+
+<div style="width:420px; margin:auto;">
+    <canvas id="chart"></canvas>
+</div>
+
+</div>
+
+    <!-- ================= AI PREDICTION ================= -->
+
+    <div class="prediction-box">
+
+        <h2>🤖 AI Prediction</h2>
+
+        <p>
+            Based on customer purchase patterns,
+            predicted preferred category is:
+        </p>
+
+        <h3>{{ predicted_category }}</h3>
+
+    </div>
+
+    <!-- ================= INSIGHTS ================= -->
+
+    <div class="card">
+
+        <h2>📌 Insights</h2>
+
+        <p class="insight">
+            🛒 Total Items Purchased:
+            <b>{{ total_items }}</b>
+        </p>
+
+        <p class="insight">
+            🔥 Top Product:
+            <b>{{ top_item }}</b>
+        </p>
+
+        <p class="insight">
+            📦 Top Category:
+            <b>{{ top_category }}</b>
+        </p>
+
+        <p class="insight">
+            💰 Total Sales:
+            <b>₹{{ total_sales }}</b>
+        </p>
+
+    </div>
+
+    <!-- ================= BACK BUTTON ================= -->
+
+    <a href="/" class="back-btn">
+        ⬅ Back Home
+    </a>
+
+    <!-- ================= CHART JS ================= -->
+
+    <script>
+
+        const ctx = document.getElementById('chart');
+
+        new Chart(ctx, {
+
+            type: 'pie',
+
+            data: {
+
+                labels: {{ category_labels|safe }},
+
+                datasets: [{
+
+                    data: {{ category_data|safe }},
+
+                    backgroundColor: [
+                        '#ff69b4',
+                        '#ffc0cb',
+                        '#5a0f4d'
+                    ],
+
+                    borderWidth:2
+                }]
+            },
+
+            options: {
+
+                responsive:true,
+
+                plugins:{
+                    legend:{
+                        labels:{
+                            color:'white',
+                            font:{
+                                size:16
+                            }
+                        }
+                    }
+                }
+            }
+        });
+
+    </script>
+
+</body>
+</html>
